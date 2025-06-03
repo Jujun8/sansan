@@ -75,4 +75,4 @@ ulasan_baru = ["Barangnya bagus dan sesuai deskripsi."]
 
 ulasan_baru2 = ["Produknya mengecewakan, tidak seperti yang diharapkan."]
 
-print(f"Prediksi skor ulasan: {prediksi2[0]}")
+
