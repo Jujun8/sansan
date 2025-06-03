@@ -13,14 +13,8 @@ import pandas as pd
 
 # Change the URL to point to the raw content of the CSV file on GitHub
 # The raw URL is different from the URL displaying the file on GitHub
-df = pd.read_csv("data proyek.csv")
-df.head(16)
-
-
-# Install dependencies (jika belum)
-# !pip install scikit-learn pandas
-
-import pandas as pd
+File "/mount/src/sansan/untitled7 (1).py", line 23, in <module>
+    import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
