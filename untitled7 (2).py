@@ -59,9 +59,7 @@ y = df[target_column]
 
 # TF-IDF Vectorizer
 # Gunakan stop_words='english' atau stop_words=None jika data non-Inggris dan tidak ada stop word list khusus
-tfidf = TfidfVectorizer(max_features=5000)
-X_train_tfidf = tfidf.fit_transform(X_train)
-X_test_tfidf = tfidf.transform(X_test)
+
 
 # Naive Bayes Model
 model = MultinomialNB()
