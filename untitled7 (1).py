@@ -13,7 +13,7 @@ import pandas as pd
 
 # Change the URL to point to the raw content of the CSV file on GitHub
 # The raw URL is different from the URL displaying the file on GitHub
-df = pd.read_csv(data proyek.csv)
+df = pd.read_csv("data proyek.csv")
 df.head(16)
 
 # Install dependencies (jika belum)
