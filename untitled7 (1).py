@@ -20,8 +20,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report
 
-# Load dataset
-df = pd.read_csv("data proyek.csv")
+File "/mount/src/sansan/untitled7 (1).py", line 23, in <module>
 
 # Cek nama kolom
 print("Kolom tersedia:", df.columns)
