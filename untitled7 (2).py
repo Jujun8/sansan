@@ -10,6 +10,8 @@ from sklearn.metrics import classification_report
 # Load dataset
 url = "https://raw.githubusercontent.com/Jujun8/sansan/main/data%20proyek.csv"
 df = pd.read_csv(url)
+print(df.columns.tolist())
+
 
 # Cek nama kolom
 print("Kolom tersedia:", df.columns)
