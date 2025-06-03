@@ -70,8 +70,7 @@ print("Laporan klasifikasi:")
 
 # Prediksi ulasan baru
 ulasan_baru = ["Barangnya bagus dan sesuai deskripsi."]
-ulasan_baru_tfidf = tfidf.transform(ulasan_baru)
-prediksi = model.predict(ulasan_baru_tfidf)
+
 print(f"Prediksi skor ulasan: {prediksi[0]}")
 
 ulasan_baru2 = ["Produknya mengecewakan, tidak seperti yang diharapkan."]
