@@ -64,7 +64,7 @@ y = df[target_column]
 # N
 
 # Evaluasi model
-y_pred = model.predict(X_test_tfidf)
+
 print("Laporan klasifikasi:")
 print(classification_report(y_test, y_pred))
 
