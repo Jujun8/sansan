@@ -61,9 +61,7 @@ y = df[target_column]
 # Gunakan stop_words='english' atau stop_words=None jika data non-Inggris dan tidak ada stop word list khusus
 
 
-# Naive Bayes Model
-model = MultinomialNB()
-model.fit(X_train_tfidf, y_train)
+# N
 
 # Evaluasi model
 y_pred = model.predict(X_test_tfidf)
