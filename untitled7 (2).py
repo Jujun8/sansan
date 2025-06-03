@@ -17,8 +17,9 @@ print(df.columns.tolist())
 print("Kolom tersedia:", df.columns)
 
 # Pastikan kolom 'ulasan' dan 'skor' sesuai dengan dataset Anda
-text_column = 'ulasan'
-target_column = 'skor'
+text_column = 'content'
+target_column = 'score'
+
 
 # Validasi kolom
 if text_column not in df.columns or target_column not in df.columns:
