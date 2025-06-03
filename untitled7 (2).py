@@ -23,8 +23,7 @@ df.head(16)
 import pandas as pd
 
 
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.metrics import classification_report
+
 
 # Load dataset
 url = "https://raw.githubusercontent.com/Jujun8/sansan/main/data%20proyek.csv"
