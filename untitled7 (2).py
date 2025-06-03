@@ -66,7 +66,7 @@ y = df[target_column]
 # Evaluasi model
 
 print("Laporan klasifikasi:")
-print(classification_report(y_test, y_pred))
+
 
 # Prediksi ulasan baru
 ulasan_baru = ["Barangnya bagus dan sesuai deskripsi."]
